@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <title>Snake Game | MauviDev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header class="header">
+      <p class="eyebrow">MAUVIDEV ARCADE</p>
+      <h1>Snake <span>Game</span></h1>
+      <p class="subtitle">Makan apel, kumpulkan skor, dan jangan menabrak!</p>
+    </header>
+
+    <section class="scoreboard">
+      <div class="score-card">
+        <span>SKOR</span>
+        <strong id="score">0</strong>
+      </div>
+      <div class="score-card">
+        <span>REKOR</span>
+        <strong id="best">0</strong>
+      </div>
+    </section>
+
+    <div class="board-wrap">
+      <canvas id="game" width="480" height="480"></canvas>
+      <div id="overlay" class="overlay">
+        <div class="overlay-card">
+          <h2 id="overlay-title">Siap bermain?</h2>
+          <p id="overlay-text">Tekan tombol mulai untuk bermain.</p>
+          <button id="start-btn" class="primary-btn">Mulai Game</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-actions">
+      <button id="pause-btn" class="secondary-btn" disabled>⏸ Jeda</button>
+      <button id="restart-btn" class="secondary-btn">↻ Ulangi</button>
+    </div>
+
+    <section class="controls">
+      <p class="control-title">KONTROL</p>
+      <p class="desktop-hint">
+        Gunakan tombol ↑ ↓ ← → atau W A S D.
+      </p>
+      <div class="touch-controls">
+        <button data-dir="up">▲</button>
+        <div class="middle-controls">
+          <button data-dir="left">◀</button>
+          <button data-dir="down">▼</button>
+          <button data-dir="right">▶</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>Made with ♥ by <strong>MauviDev</strong></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
