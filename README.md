@@ -2,7 +2,7 @@
 
 Game Snake sederhana berbasis **HTML, CSS, dan JavaScript** yang dapat dimainkan melalui browser. Proyek ini dibuat sebagai latihan pengembangan web tanpa framework tambahan.
 
-## ✨ Fitur
+## ✨ Fitur utama
 
 - 🎮 Gameplay Snake klasik menggunakan Canvas.
 - 🍎 Kumpulkan makanan untuk menambah skor.
