@@ -1,6 +1,6 @@
 # 🐍 Snake Game — MauviDev
 
-Game Snake sederhana berbasis **HTML, CSS, dan JavaScript** yang dapat dimainkan melalui browser. Proyek ini dibuat sebagai latihan pengembangan web tanpa framework tambahan.
+Game Snake sederhana berbasis **HTML, CSS, dan JavaScript** yang dapat dimainkan melalui browser. Proyek ini dibuat sebagai latihan pengembangan web tanpa framework tambahan.!
 
 ## ✨ Fitur utama
 
